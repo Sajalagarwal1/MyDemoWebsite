@@ -1,0 +1,5 @@
+name: Basic Page Module
+description: this is our 1st basic page module
+core: 8.x
+type: module
+package: Custom Modules
