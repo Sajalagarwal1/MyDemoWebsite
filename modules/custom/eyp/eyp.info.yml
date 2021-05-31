@@ -1,0 +1,5 @@
+name: Eyp
+description: This is a Eyp module
+core: 8.x
+type: module
+package: Custom Modules

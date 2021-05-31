@@ -1,0 +1,11 @@
+<?php
+
+function eyp_theme($existing, $type, $theme, $path) {
+    return [
+        'myte' =>[
+            'variable' => [
+                'data' => NULL,
+            ],
+        ],
+    ];
+}

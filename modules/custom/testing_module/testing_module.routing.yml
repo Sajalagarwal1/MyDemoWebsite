@@ -1,0 +1,7 @@
+testing_module.listing:
+  path: '/testing'
+  defaults:  
+    _controller: '\Drupal\testing_module\Controller\TestingController::listing'
+    _title: 'Test Page'
+  requirements:
+    _permission: 'access content'

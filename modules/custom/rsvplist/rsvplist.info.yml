@@ -1,0 +1,6 @@
+name: RSVP list
+description: This is a RSVP module
+core: 8.x
+type: module
+package: RSVP List
+configuration: rsvplist.admin_settings

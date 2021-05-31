@@ -1,0 +1,19 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function testing_module_theme($existing, $type, $theme, $path) {
+    return [
+      'mytempla' => [
+        'variables' => [
+            'data' => NULL,
+            'nid' => NULL,
+            ],
+      ],
+      'customblock' => [
+        'variables' => [
+            'data' => NULL,
+          ],
+      ],
+    ];
+  }

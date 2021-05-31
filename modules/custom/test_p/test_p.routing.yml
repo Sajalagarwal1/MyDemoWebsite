@@ -1,0 +1,7 @@
+test_p.testpage:
+  path: '/test-page'
+  defaults:  
+    _controller: '\Drupal\test_p\Controller\testController::testpage'
+    _title: 'Basi Page'
+  requirements:
+    _permission: 'access content'

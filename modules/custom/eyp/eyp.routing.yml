@@ -1,0 +1,7 @@
+eyp.createemp:
+  path: '/create-Employe'
+  defaults:
+    _controller: 'Drupal\eyp\Controller\eypController::createemp'
+    _title: 'Create Employee'
+  requirements: 
+    _permission: 'access content'
